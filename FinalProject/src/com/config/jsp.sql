@@ -27,24 +27,6 @@
    phone3 VARCHAR2(4) NOT NULL,
    email1 VARCHAR2(20) NOT NULL);
    
-    create table company
- ( userid VARCHAR2(20) PRIMARY KEY,
-   passwd VARCHAR2(20) NOT NULL,
-   cname VARCHAR2(20) NOT NULL,
-   cemail VARCHAR2(50) NOT NULL,
-   cno1 VARCHAR2(10) NOT NULL, 
-   cno2 VARCHAR2(10) NOT NULL,
-   cno3 VARCHAR2(10) NOT NULL,
-   cmaster varchar2(20) not null,
-   ccategory varchar2(10) not null,
-   post1 VARCHAR2(3) NOT NULL,
-   post2 VARCHAR2(3) NOT NULL,
-   addr1 VARCHAR2(500) NOT NULL,
-   addr2 VARCHAR2(500) NOT NULL,
-   cphone1 varchar2(3) not null,
-   cphone2 varchar2(4) not null,
-   cphone3 varchar2(4) not null
-   );
       
    create table myboard 
  ( num NUMBER(4) CONSTRAINT myboard_num_pk PRIMARY KEY,

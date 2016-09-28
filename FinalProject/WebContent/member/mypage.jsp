@@ -20,7 +20,6 @@
   String phone2 = dto.getPhone2();
   String phone3 = dto.getPhone3();
   String email1 = dto.getEmail1();
-  String email2 = dto.getEmail2();
 %>
 
 
@@ -57,9 +56,7 @@ value="<%=username %>" readonly><br>
      <input type="text" name="phone3" id="phone3" 
      value="<%=phone3 %>" ><br>
 이메일<input type="text" name="email1" id="email1" 
-value="<%= email1%>">@
-<input type="text" name="email2" id="email2" 
-value="<%= email2%>"><br>
+value="<%= email1%>">
 <button onclick="memberUpdate(myform)">수정</button>
 <button onclick="memberDelete(myform)">탈퇴</button>
 </form>
@@ -114,9 +111,6 @@ value="<%= email2%>"><br>
 		    	return false;
 		    }else if($("#email1").val() == ''){
 		    	alert("이메일1를 입력하세요");
-		    	return false;
-		    }else if($("#email2").val() == ''){
-		    	alert("이메일2를 입력하세요");
 		    	return false;
 		    }else{
 		    	//성공

@@ -17,7 +17,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
    <typeAlias type="com.dto.GoodsDTO" alias="GoodsDTO"/>
    <typeAlias type="com.dto.CartDTO" alias="CartDTO"/>
    <typeAlias type="com.dto.OrderDTO" alias="OrderDTO"/>
-   <typeAlias type="com.dto.CompanyDTO" alias="CompanyDTO"/>
   </typeAliases>
   
 
@@ -40,7 +39,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 		<mapper resource="com/config/GoodsMapper.xml" />
 		<mapper resource="com/config/CartMapper.xml" />
 		<mapper resource="com/config/OrderMapper.xml" />
-		<mapper resource="com/config/CompanyMapper.xml" />
 	</mappers>
 </configuration>
 
